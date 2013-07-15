@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
-  has_many :user_story
-  has_many :stories, :through => :user_story 
+  has_many :user_stories
+  has_many :stories, :through => :user_stories
 end
