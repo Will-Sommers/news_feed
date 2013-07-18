@@ -1,0 +1,411 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?_r=0&hp&pagewanted=print
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 303
+      message: See Other
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:25 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - RMID=007f01000dcf51e835310003; Expires=Fri, 18 Jul 2014 18:34:25 GMT; Path=/;
+        Domain=.nytimes.com;
+      Vary:
+      - Host
+      Location:
+      - http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html&OQ=hpQ26_rQ3D1Q26pagewantedQ3DprintQ26&OP=df861c08Q2FnPLVneQ5CVnhhhn0VJ(n3PYWaPPVTnTX4Q22nXQ2Bn4Q3Cn.WnLP(Q7EVQ7EYWn3AJPYaQ24VW8WAAQ7Eec8LaAYA3AeV8LaAWW8Pe8VP8Y.aQ3A8lQ7E(Q7EQ3A.WVAaQ230VJ(
+      Content-Length:
+      - '0'
+      Connection:
+      - close
+      Content-Type:
+      - text/plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:25 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/glogin?OP=df861c08Q2FnPLVneQ5CVnhhhn0VJ(n3PYWaPPVTnTX4Q22nXQ2Bn4Q3Cn.WnLP(Q7EVQ7EYWn3AJPYaQ24VW8WAAQ7Eec8LaAYA3AeV8LaAWW8Pe8VP8Y.aQ3A8lQ7E(Q7EQ3A.WVAaQ230VJ(&OQ=hpQ26_rQ3D1Q26pagewantedQ3DprintQ26&URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:25 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - NYT-S=0MrbR7PgLIdPLDXrmvxADeHBBbuHWC/pG8deFz9JchiAIUFL2BEX5FWcV.Ynx4rkFI;
+        expires=Sat, 17-Aug-2013 18:34:25 GMT; path=/; domain=.nytimes.com
+      Location:
+      - http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?hp&_r=1&pagewanted=print&
+      Content-Length:
+      - '0'
+      Cneonction:
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:25 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?_r=1&hp&pagewanted=print
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 303
+      message: See Other
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:25 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - RMID=007f0100621a51e83531005d; Expires=Fri, 18 Jul 2014 18:34:25 GMT; Path=/;
+        Domain=.nytimes.com;
+      Vary:
+      - Host
+      Location:
+      - http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html&OQ=hpQ26_rQ3D2Q26pagewantedQ3DprintQ26&OP=6966bacdQ2F!L-p!dQ5Ep!JJJ!Bpgu!Q22LXNjLLpm!mQ7EQ2B1!Q7EQ2A!Q2BQ5B!oN!-LuvpvXN!Q22lgLXjQ2FpNhNllvdQ7Ch-jlXlQ22ldph-jlNNhLdhpLhXoj0hqvuv0oNplj6Bpgu
+      Content-Length:
+      - '0'
+      Connection:
+      - close
+      Content-Type:
+      - text/plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:25 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/glogin?OP=6966bacdQ2F!L-p!dQ5Ep!JJJ!Bpgu!Q22LXNjLLpm!mQ7EQ2B1!Q7EQ2A!Q2BQ5B!oN!-LuvpvXN!Q22lgLXjQ2FpNhNllvdQ7Ch-jlXlQ22ldph-jlNNhLdhpLhXoj0hqvuv0oNplj6Bpgu&OQ=hpQ26_rQ3D2Q26pagewantedQ3DprintQ26&URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:25 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - NYT-S=0MrbR7PgLIdPLDXrmvxADeHBBbuHWC/pG8deFz9JchiAIUFL2BEX5FWcV.Ynx4rkFI;
+        expires=Sat, 17-Aug-2013 18:34:25 GMT; path=/; domain=.nytimes.com
+      Location:
+      - http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?hp&_r=2&pagewanted=print&
+      Content-Length:
+      - '0'
+      Cneonction:
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:25 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?_r=2&hp&pagewanted=print
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 303
+      message: See Other
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:25 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - RMID=007f01001c8651e83531001c; Expires=Fri, 18 Jul 2014 18:34:25 GMT; Path=/;
+        Domain=.nytimes.com;
+      Vary:
+      - Host
+      Location:
+      - http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html&OQ=hpQ26_rQ3D3Q26pagewantedQ3DprintQ26&OP=84dff7f9Q2FQ3FPmRQ3FCzRQ3FQ23Q23Q23Q3FQ60RMbQ3FQ7DPTL6PPRQ2FQ3FQ2F4WwQ3F42Q3FWfQ3FKLQ3FmPbQ5DRQ5DTLQ3FQ7DQ22MPT6Q27RLQ5BLQ22Q22Q5DCcQ5Bm6Q22TQ22Q7DQ22CRQ5Bm6Q22LLQ5BPCQ5BRPQ5BTK6uQ5BJQ5DbQ5DuKLRQ226Q51Q60RMb
+      Content-Length:
+      - '0'
+      Connection:
+      - close
+      Content-Type:
+      - text/plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:25 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/glogin?OP=84dff7f9Q2FQ3FPmRQ3FCzRQ3FQ23Q23Q23Q3FQ60RMbQ3FQ7DPTL6PPRQ2FQ3FQ2F4WwQ3F42Q3FWfQ3FKLQ3FmPbQ5DRQ5DTLQ3FQ7DQ22MPT6Q27RLQ5BLQ22Q22Q5DCcQ5Bm6Q22TQ22Q7DQ22CRQ5Bm6Q22LLQ5BPCQ5BRPQ5BTK6uQ5BJQ5DbQ5DuKLRQ226Q51Q60RMb&OQ=hpQ26_rQ3D3Q26pagewantedQ3DprintQ26&URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:26 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - NYT-S=0M9q35hpFNVJjDXrmvxADeHEMYiCgDbwvBdeFz9JchiAIUFL2BEX5FWcV.Ynx4rkFI;
+        expires=Sat, 17-Aug-2013 18:34:26 GMT; path=/; domain=.nytimes.com
+      Location:
+      - http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?hp&_r=3&pagewanted=print&
+      Content-Length:
+      - '0'
+      Cneonction:
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:26 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?_r=3&hp&pagewanted=print
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 303
+      message: See Other
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:26 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - RMID=007f01007b4651e835320020; Expires=Fri, 18 Jul 2014 18:34:26 GMT; Path=/;
+        Domain=.nytimes.com;
+      Vary:
+      - Host
+      Location:
+      - http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html&OQ=hpQ26_rQ3D4Q26pagewantedQ3DprintQ26&OP=e439ecceQ2FQ27VJfQ27k3fQ27Q3CQ3CQ3CQ278fNwQ27IV1_YVVfQ3EQ27Q3EG2Q2BQ27GtQ272aQ27p_Q27JVw.f.1_Q27IANV1YQ5Bf_!_AA.k-!JYA1AIAkf!JYA__!Vk!fV!1pYO!d.w.Op_fAYb8fNw
+      Content-Length:
+      - '0'
+      Connection:
+      - close
+      Content-Type:
+      - text/plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:26 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/glogin?OP=e439ecceQ2FQ27VJfQ27k3fQ27Q3CQ3CQ3CQ278fNwQ27IV1_YVVfQ3EQ27Q3EG2Q2BQ27GtQ272aQ27p_Q27JVw.f.1_Q27IANV1YQ5Bf_!_AA.k-!JYA1AIAkf!JYA__!Vk!fV!1pYO!d.w.Op_fAYb8fNw&OQ=hpQ26_rQ3D4Q26pagewantedQ3DprintQ26&URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:27 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - NYT-S=0MZECYsYdK047DXrmvxADeHIgJMYQiMFAZdeFz9JchiAIUFL2BEX5FWcV.Ynx4rkFI;
+        expires=Sat, 17-Aug-2013 18:34:27 GMT; path=/; domain=.nytimes.com
+      Location:
+      - http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?hp&_r=4&pagewanted=print&
+      Content-Length:
+      - '0'
+      Cneonction:
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:27 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?_r=4&hp&pagewanted=print
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 303
+      message: See Other
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:27 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - RMID=007f0100231d51e83533004f; Expires=Fri, 18 Jul 2014 18:34:27 GMT; Path=/;
+        Domain=.nytimes.com;
+      Vary:
+      - Host
+      Location:
+      - http://www.nytimes.com/glogin?URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html&OQ=hpQ26_rQ3D5Q26pagewantedQ3DprintQ26&OP=efc04b8Q2FQ5DifuQ5DQ7DDuQ5DRRRQ5Dsub3Q5DwiFQ24Q60iiu4Q5D4YQ3F9Q5DYQ2FQ5DQ3FEQ5DoQ24Q5Dfi3jujFQ24Q5DwHbiFQ60tuQ24Q51Q24HHjQ7DQ5EQ51fQ60HFHwHQ7DuQ51fQ60HQ24Q24Q51iQ7DQ51uiQ51FoQ60Q22Q51Jj3jQ22oQ24uHQ60Ksub3
+      Content-Length:
+      - '0'
+      Connection:
+      - close
+      Content-Type:
+      - text/plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:27 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/glogin?OP=efc04b8Q2FQ5DifuQ5DQ7DDuQ5DRRRQ5Dsub3Q5DwiFQ24Q60iiu4Q5D4YQ3F9Q5DYQ2FQ5DQ3FEQ5DoQ24Q5Dfi3jujFQ24Q5DwHbiFQ60tuQ24Q51Q24HHjQ7DQ5EQ51fQ60HFHwHQ7DuQ51fQ60HQ24Q24Q51iQ7DQ51uiQ51FoQ60Q22Q51Jj3jQ22oQ24uHQ60Ksub3&OQ=hpQ26_rQ3D5Q26pagewantedQ3DprintQ26&URI=http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:27 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - NYT-S=0MZECYsYdK047DXrmvxADeHIgJMYQiMFAZdeFz9JchiAIUFL2BEX5FWcV.Ynx4rkFI;
+        expires=Sat, 17-Aug-2013 18:34:27 GMT; path=/; domain=.nytimes.com
+      Location:
+      - http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?hp&_r=5&pagewanted=print&
+      Content-Length:
+      - '0'
+      Cneonction:
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:27 GMT
+- request:
+    method: get
+    uri: http://www.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?_r=5&hp&pagewanted=print
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 303
+      message: See Other
+    headers:
+      Date:
+      - Thu, 18 Jul 2013 18:34:27 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - RMID=007f010022b651e835330064; Expires=Fri, 18 Jul 2014 18:34:27 GMT; Path=/;
+        Domain=.nytimes.com;
+      Vary:
+      - Host
+      Location:
+      - http://www-nc.nytimes.com/2013/07/16/us/politics/democrats-seeing-precedent-press-on-to-curb-filibuster.html?=hp&_r=6&pagewanted=print&
+      Content-Length:
+      - '0'
+      Connection:
+      - close
+      Content-Type:
+      - text/plain
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Thu, 18 Jul 2013 18:34:27 GMT
+recorded_with: VCR 2.5.0

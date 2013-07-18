@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+
 gem 'rails', '4.0.0'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0'
@@ -13,7 +14,8 @@ gem 'nokogiri'
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
   gem 'shoulda-matchers'
-  gem 'vcr'
+  # gem 'vcr'
+  # gem 'webmock'
   gem 'pry'
   gem 'dotenv-rails'
   gem 'factory_girl_rails'

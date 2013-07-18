@@ -3,6 +3,16 @@ ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
+# require 'vcr'
+# require 'webmock/rspec'
+
+
+# VCR.configure do |c|
+#   c.allow_http_connections_when_no_cassette = true
+#   c.cassette_library_dir = "spec/fixtures/news_feed_cassettes"
+  # c.hook_into :webmock
+# end
+
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
@@ -20,6 +30,7 @@ RSpec.configure do |config|
   # config.mock_with :mocha
   # config.mock_with :flexmock
   # config.mock_with :rr
+
 
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
